@@ -29,7 +29,18 @@ A mobile-friendly and user-interactive expense tracker web application built wit
 ---
 
 ## 📁 Project Structure
-<pre> 📁 expense_tracker/ ├── 📂 static/ │ └── style.css # CSS styling ├── 📂 templates/ │ ├── index.html # Home page (expense list) │ ├── add_expense.html # Form to add new expense │ └── report.html # Template for PDF report (PDF generation) ├── app.py # Main Flask application ├── db_config.py # MySQL DB configuration ├── requirements.txt # Python dependencies └── README.md # Project documentation (this file) </pre>
+<pre> expense_tracker/
+├── static/
+│ └── style.css # CSS styling
+├── templates/
+│ ├── index.html # Home page (expense list)
+│ ├── add_expense.html # Form to add new expense
+│ └── report.html # Template for PDF report (PDF generation)
+├── app.py # Main Flask application
+├── db_config.py # MySQL DB configuration
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation (this file)
+ </pre>
 
 
 ---
