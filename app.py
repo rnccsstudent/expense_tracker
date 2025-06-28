@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 from flask import Flask, render_template, request, redirect, send_file
 from db_config import get_connection
 from xhtml2pdf import pisa
