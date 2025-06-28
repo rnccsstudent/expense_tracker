@@ -63,14 +63,14 @@ A mobile-friendly and user-interactive expense tracker web application built wit
 git clone https://github.com/your-username/expense_tracker.git <br>
 cd expense_tracker
 </pre>
-# ##Install dependencies
+Install dependencies
 <pre>pip install -r requirements.txt</pre>
 
-### Setup database manually (or connect to hosted MySQL)
-### Use schema below to create table
+Setup database manually (or connect to hosted MySQL)
+Use schema below to create table
 
-###Run the app
-python app.py
+Run the app 
+<pre>python app.py</pre>
 ---
 🗄️ Database Schema
 <pre>
