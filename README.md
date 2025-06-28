@@ -57,7 +57,7 @@ A mobile-friendly and user-interactive expense tracker web application built wit
 
 ### 💻 Local Setup
 
-```bash
+
 # Clone the repository
 git clone https://github.com/your-username/expense_tracker.git
 cd expense_tracker
@@ -72,9 +72,7 @@ pip install -r requirements.txt
 python app.py
 
 🗄️ Database Schema
-sql
-Copy
-Edit
+<pre>
 CREATE TABLE expenses (
     id INT AUTO_INCREMENT PRIMARY KEY,
     date DATE,
@@ -82,9 +80,9 @@ CREATE TABLE expenses (
     amount DECIMAL(10,2),
     note TEXT
 );
-
+</pre>
 🚀 Deployment
-Option 1: Railway (Recommended for Free MySQL)
+Railway (Recommended for Free MySQL)
 Create a new Railway project
 
 Add MySQL Plugin
@@ -92,13 +90,10 @@ Add MySQL Plugin
 Set MYSQLHOST, MYSQLUSER, etc. from Railway ENV to your db_config.py
 
 Start Command:
+<pre>gunicorn app:app</pre>
 
-bash
-Copy
-Edit
-gunicorn app:app
+## 👤 Author
 
-👤 Author
-Pranab Mahata
-📧 pranabmahata197@gmail.com
-🌐 LinkedIn
+**Pranab Mahata**  
+📧 pranabmahata197@gmail.com  
+🌐 [LinkedIn](https://linkedin.com/in/pranab28042002)
