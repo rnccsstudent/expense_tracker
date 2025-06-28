@@ -1,8 +1,5 @@
 import os
-from dotenv import load_dotenv
 import mysql.connector
-
-load_dotenv()  # এটি লোকাল .env ফাইল থেকে variables লোড করে
 
 def get_connection():
     return mysql.connector.connect(
